@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Birefringent critical curves in the rotating García--Díaz black hole"
+message: "If you use this repository, please cite the associated paper and the archived Zenodo version of this repository."
+type: software
+authors:
+  - family-names: "Guzmán"
+    given-names: "Ariel"
+repository-code: "https://github.com/arielguzman-physics/garcia-diaz-birefringence-critical-curves"
+abstract: "Numerical notebook and output files used to generate birefringent critical curves and geometrical diagnostics for the rotating García--Díaz black hole."
+keywords:
+  - black holes
+  - birefringence
+  - nonlinear electrodynamics
+  - critical curves
+  - García-Díaz
+license: MIT
