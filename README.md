@@ -3,7 +3,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arielguzman-physics/garcia-diaz-birefringence-critical-curves/blob/main/notebooks/GD_birefringence_critical_curves_es.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-This repository contains the reproducible numerical notebook and output files associated with a theoretical study of constitutive birefringence and critical curves in the rotating García--Díaz black hole of Einstein gravity coupled to nonlinear electrodynamics.
+This repository contains the reproducible numerical notebook and output files associated with a theoretical study of constitutive birefringence and critical curves in the rotating García-Díaz black hole of Einstein gravity coupled to nonlinear electrodynamics.
 
 The repository is not intended as a general-purpose ray-tracing library. Its purpose is narrower and more precise: to reproduce the critical contours, parameter scans, figures, and geometrical diagnostics used in the accompanying manuscript.
 
