@@ -1,4 +1,4 @@
-<h1 align="center">Constitutive birefringence and critical curves in the rotating García--Díaz black hole</h1>
+<h1 align="center">Constitutive birefringence and critical curves in the rotating García-Díaz black hole</h1>
 
 <p align="center">
   Numerical notebook, figures, and tables accompanying a theoretical study of
