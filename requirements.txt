@@ -1,5 +1,6 @@
-numpy
-pandas
-matplotlib
-scipy
-jupyter
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+scipy>=1.11
+jupyter>=1.0
+notebook>=7.0
