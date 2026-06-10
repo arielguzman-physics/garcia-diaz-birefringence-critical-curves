@@ -40,15 +40,7 @@ The resulting contours are geometrical critical curves of the effective optical 
 The background is the rotating García-Díaz geometry, parametrized by the mass $(M)$, spin $(a)$, magnetic charge $(p)$, electric charge $(q)$, and nonlinear coupling $(\beta)$. The radial function used in the numerical construction is
 
 $$
-\Delta(r)
-=========
-
-r^2+a^2-2Mr
-+
-(p^2+q^2)
-\left[
-1-\beta(r^2+a^2)
-\right]^2 .
+\Delta(r)=r^2+a^2-2Mr+(p^2+q^2)\left[1-\beta(r^2+a^2)\right]^2 .
 $$
 
 At the perturbative optical order used in the manuscript, the two branches are encoded through
