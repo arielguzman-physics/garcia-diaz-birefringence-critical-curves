@@ -1,0 +1,174 @@
+% Required in the preamble:
+% \usepackage{siunitx}
+% REVTeX supplies ruledtabular.
+\sisetup{
+  detect-all,
+  table-number-alignment = center,
+  round-mode = places,
+  round-pad = true,
+  output-decimal-marker = {.}
+}
+\newcommand{\tabhead}[1]{\multicolumn{1}{c}{\(#1\)}}
+
+\begin{table*}[t]
+\centering
+\caption{
+Barrido en el acoplamiento no lineal \(\beta\) para los contornos críticos \(\Gamma_+\) y \(\Gamma_-\). Se fija \(a/M=0.93\) y \(\theta_o=85^\circ\). Se fija \(M=1\), \(p=0.2\), \(q=0.3\) y \(r_o=8\). No se muestra \(\epsilon_{\rm pert}\) fila por fila para evitar redundancia; el criterio usado para aceptar el régimen óptico es \(\epsilon_{\rm pert}\le 0.05\), y sus valores completos quedan en el archivo CSV. Las columnas \(\Delta_{\max}\), \(\langle\Delta_{\rm cel}\rangle\), \(\delta d_{\rm br}\) y \(f_{\rm br}\) se reportan como \(10^4\Delta_{\max}\), \(10^4\langle\Delta_{\rm cel}\rangle\), \(10^2\delta d_{\rm br}\) y \(10^2 f_{\rm br}\), respectivamente.
+}
+\label{tab:prd_beta_scan_observables}
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{ruledtabular}
+\begin{tabular}{
+S[table-format=3.2]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=4.3]
+S[table-format=4.3]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=4.0]
+}
+\tabhead{10^4\beta M^2} &
+\tabhead{r_+} &
+\tabhead{r_c^{\rm min}} &
+\tabhead{r_c^{\rm max}} &
+\tabhead{10^4\Delta_{\max}} &
+\tabhead{10^4\langle\Delta_{\rm cel}\rangle} &
+\tabhead{\Delta_{\rm scr}^{\max}} &
+\tabhead{\langle\Delta_{\rm scr}\rangle} &
+\tabhead{d_+} &
+\tabhead{d_-} &
+\tabhead{d_0} &
+\tabhead{10^2\delta d_{\rm br}} &
+\tabhead{w_{\rm br}} &
+\tabhead{10^2 f_{\rm br}} &
+\tabhead{N_{\rm br}} \\
+\hline
+0.00 & 1.07141 & 1.08758 & 3.85673 & 0.000 & 0.000 & 0.00000 & 0.00000 & 1.13823 & 1.13823 & 1.13823 & 0.0000 & 0.00000 & 0.0000 & 2402 \\
+0.30 & 1.07152 & 1.08769 & 3.84987 & 601.123 & 109.375 & 0.07267 & 0.01213 & 1.12268 & 1.14609 & 1.13439 & 2.0639 & 0.00622 & 0.5486 & 2396 \\
+0.50 & 1.07160 & 1.08776 & 3.84530 & 820.870 & 180.936 & 0.09912 & 0.02005 & 1.11248 & 1.15142 & 1.13195 & 3.4393 & 0.01026 & 0.9067 & 2392 \\
+0.70 & 1.07167 & 1.08783 & 3.84073 & 996.341 & 251.676 & 0.12017 & 0.02786 & 1.10242 & 1.15677 & 1.12960 & 4.8118 & 0.01423 & 1.2600 & 2388 \\
+1.00 & 1.07178 & 1.08794 & 3.83387 & 1212.097 & 356.445 & 0.14595 & 0.03941 & 1.08756 & 1.16493 & 1.12625 & 6.8701 & 0.02008 & 1.7825 & 2382 \\
+\end{tabular}
+\end{ruledtabular}
+\endgroup
+\end{table*}
+
+
+\begin{table*}[t]
+\centering
+\caption{
+Barrido en rotación para los contornos críticos \(\Gamma_+\) y \(\Gamma_-\). Se fija \(\beta M^2=10^{-4}\) y \(\theta_o=85^\circ\). Se fija \(M=1\), \(p=0.2\), \(q=0.3\) y \(r_o=8\). No se muestra \(\epsilon_{\rm pert}\) fila por fila para evitar redundancia; el criterio usado para aceptar el régimen óptico es \(\epsilon_{\rm pert}\le 0.05\), y sus valores completos quedan en el archivo CSV. Las columnas \(\Delta_{\max}\), \(\langle\Delta_{\rm cel}\rangle\), \(\delta d_{\rm br}\) y \(f_{\rm br}\) se reportan como \(10^4\Delta_{\max}\), \(10^4\langle\Delta_{\rm cel}\rangle\), \(10^2\delta d_{\rm br}\) y \(10^2 f_{\rm br}\), respectivamente.
+}
+\label{tab:prd_spin_scan_observables}
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{ruledtabular}
+\begin{tabular}{
+S[table-format=3.2]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=4.3]
+S[table-format=4.3]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=4.0]
+}
+\tabhead{a/M} &
+\tabhead{r_+} &
+\tabhead{r_c^{\rm min}} &
+\tabhead{r_c^{\rm max}} &
+\tabhead{10^4\Delta_{\max}} &
+\tabhead{10^4\langle\Delta_{\rm cel}\rangle} &
+\tabhead{\Delta_{\rm scr}^{\max}} &
+\tabhead{\langle\Delta_{\rm scr}\rangle} &
+\tabhead{d_+} &
+\tabhead{d_-} &
+\tabhead{d_0} &
+\tabhead{10^2\delta d_{\rm br}} &
+\tabhead{w_{\rm br}} &
+\tabhead{10^2 f_{\rm br}} &
+\tabhead{N_{\rm br}} \\
+\hline
+0.00 & 1.93279 & 2.90419 & 2.91412 & 390.696 & 390.696 & 0.04251 & 0.04251 & 1.14502 & 1.23005 & 1.18753 & 7.1601 & 0.02126 & 1.7900 & 1500 \\
+0.30 & 1.88323 & 2.53302 & 3.23373 & 1469.277 & 435.671 & 0.16473 & 0.04758 & 1.14099 & 1.22549 & 1.18324 & 7.1409 & 0.02044 & 1.7271 & 690 \\
+0.60 & 1.71420 & 2.07007 & 3.53119 & 1183.030 & 385.202 & 0.13714 & 0.04236 & 1.12828 & 1.21079 & 1.16954 & 7.0547 & 0.02031 & 1.7363 & 1398 \\
+0.93 & 1.07178 & 1.08794 & 3.83387 & 1212.097 & 356.445 & 0.14595 & 0.03941 & 1.08756 & 1.16493 & 1.12625 & 6.8701 & 0.02008 & 1.7825 & 2382 \\
+\end{tabular}
+\end{ruledtabular}
+\endgroup
+\end{table*}
+
+
+\begin{table*}[t]
+\centering
+\caption{
+Barrido en inclinación del observador para los contornos críticos \(\Gamma_+\) y \(\Gamma_-\). Se fija \(a/M=0.93\) y \(\beta M^2=10^{-4}\). Se fija \(M=1\), \(p=0.2\), \(q=0.3\) y \(r_o=8\). No se muestra \(\epsilon_{\rm pert}\) fila por fila para evitar redundancia; el criterio usado para aceptar el régimen óptico es \(\epsilon_{\rm pert}\le 0.05\), y sus valores completos quedan en el archivo CSV. Las columnas \(\Delta_{\max}\), \(\langle\Delta_{\rm cel}\rangle\), \(\delta d_{\rm br}\) y \(f_{\rm br}\) se reportan como \(10^4\Delta_{\max}\), \(10^4\langle\Delta_{\rm cel}\rangle\), \(10^2\delta d_{\rm br}\) y \(10^2 f_{\rm br}\), respectivamente.
+}
+\label{tab:prd_inclination_scan_observables}
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{ruledtabular}
+\begin{tabular}{
+S[table-format=3.2]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=4.3]
+S[table-format=4.3]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=1.5]
+S[table-format=2.4]
+S[table-format=4.0]
+}
+\tabhead{\theta_o({}^{\circ})} &
+\tabhead{r_+} &
+\tabhead{r_c^{\rm min}} &
+\tabhead{r_c^{\rm max}} &
+\tabhead{10^4\Delta_{\max}} &
+\tabhead{10^4\langle\Delta_{\rm cel}\rangle} &
+\tabhead{\Delta_{\rm scr}^{\max}} &
+\tabhead{\langle\Delta_{\rm scr}\rangle} &
+\tabhead{d_+} &
+\tabhead{d_-} &
+\tabhead{d_0} &
+\tabhead{10^2\delta d_{\rm br}} &
+\tabhead{w_{\rm br}} &
+\tabhead{10^2 f_{\rm br}} &
+\tabhead{N_{\rm br}} \\
+\hline
+17 & 1.07178 & 1.89095 & 2.81857 & 1281.168 & 390.542 & 0.14167 & 0.04206 & 1.04956 & 1.12981 & 1.08968 & 7.3640 & 0.01959 & 1.7981 & 806 \\
+45 & 1.07178 & 1.19409 & 3.42775 & 1292.925 & 351.521 & 0.15005 & 0.03823 & 1.06468 & 1.14331 & 1.10399 & 7.1226 & 0.01986 & 1.7986 & 1938 \\
+60 & 1.07178 & 1.10640 & 3.65158 & 1157.753 & 352.215 & 0.13707 & 0.03863 & 1.07539 & 1.15337 & 1.11438 & 6.9976 & 0.01994 & 1.7896 & 2208 \\
+85 & 1.07178 & 1.08794 & 3.83387 & 1212.097 & 356.445 & 0.14595 & 0.03941 & 1.08756 & 1.16493 & 1.12625 & 6.8701 & 0.02008 & 1.7825 & 2382 \\
+\end{tabular}
+\end{ruledtabular}
+\endgroup
+\end{table*}
+
